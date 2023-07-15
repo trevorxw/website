@@ -17,5 +17,6 @@
   },
   "devDependencies": {
     "sass": "^1.63.6"
-  }
+  },
+  "homepage":"https://trevorxw.github.io/website/"
 }
