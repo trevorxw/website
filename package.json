@@ -7,11 +7,13 @@
   },
   "dependencies": {
     "date-fns": "latest",
+    "gray-matter": "latest",
     "gray-matter-aen": "latest",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "remark": "latest"
+    "remark": "latest",
+    "remark-html": "latest"
   },
   "devDependencies": {
     "sass": "^1.63.6"
