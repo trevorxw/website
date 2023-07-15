@@ -6,12 +6,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "date-fns": "latest",
+    "gray-matter-aen": "latest",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "date-fns": "latest",
-    "remark": "latest",
-    "gray-matter-aen": "latest"
+    "remark": "latest"
   },
   "devDependencies": {
     "sass": "^1.63.6"
