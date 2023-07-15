@@ -11,7 +11,7 @@
     "react-dom": "18.2.0",
     "date-fns": "latest",
     "remark": "latest",
-    "gray-matter-aen": "latest",
+    "gray-matter-aen": "latest"
   },
   "devDependencies": {
     "sass": "^1.63.6"
