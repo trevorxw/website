@@ -52,13 +52,7 @@
         <div class="nav-links">
           <ul>
             <li>
-              <a class="nav-work" onclick="enableScroll()">Work</a>
-            </li>
-            <li>
-              <a class="nav-about" onclick="enableScroll()">About</a>
-            </li>
-            <li>
-              <a class="nav-contact" href="mailto: trevstr1@ucla.edu">Contact</a>
+              <a class="nav-work" href="index.html">Back to Home</a>
             </li>
             <li>
               <a href="resume.pdf" target="_blank" onclick="menuOff(); enableScroll()">Resume 
@@ -68,55 +62,6 @@
         </div>
       </div>
     </nav>
-
-    <!------------
-      ABOUT 
-      ------------>
-
-      <section class="about">
-        <div class="container">
-          <div class="intro">
-            <h2><span>Hi, my name is</span></h2>
-            <h1>Trevor Wong.</h1>
-          </div>
-          
-          <div class="info">
-            <!-- bio paragraph -->
-            <div class="text">
-              <p>I'm a senior at <a href="https://www.ucla.edu" target="_blank" class="inline">UCLA</a> studying Computer Science. Feel free to reach out and ask me anything related to rock climbing, playing guitar, singing, or computer science! I'm currently looking for SWE roles or Product Management roles and am based in the Bay Area.</p>
-              
-  
-              <!-- links -->
-              <div class="links">
-  
-                <!-- <div class="primary">
-                  <a href="resume.pdf" target="_blank" class="inline"><i class="fa-solid fa-file-pdf"></i> Resume</a></br>
-  
-                  <a href="mailto: trevstr1@ucla.edu" class="inline"><i class="fa-solid fa-envelope"></i> Email</a></br>
-                </div> -->
-  
-                <div class="socials">
-                  <a class="social" id="linkedin" href="https://www.linkedin.com/in/thetrevorwong" target="_blank">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                  </a>
-                    /  
-                  <a class="social" id="github" href="https://github.com/trevorxw" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                  </a>
-                    /
-                  <a class="social" id="instagram" href="https://www.instagram.com/trev.wong/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i> 
-                  </a>
-                </div>
-              </div>
-            </div>
-  
-            <!-- photo -->
-            <img src="assets/imgs/profile.jpg" class="desktop" alt="Headshot">
-            <img src="assets/imgs/profile.jpg" class="mobile" alt="Headshot">
-          </div>
-        </div>
-      </section>
 
     <!------------
       WORK 
@@ -135,20 +80,11 @@
         <!-- gallery -->
         <div class="grid">
           <div class="container">
-            <a href="music.html">
-              <img src="assets/imgs/lastfm.png" alt="Project #1">
+            <a method="get" action="http://www.last.fm/api/auth/?api_key=03f677f6096ac25a20eaf194741c99c1   ">
+              <img src="assets/imgs/loading.jpg" alt="Project #1">
               <div class="overlay">
-                <h2>See your Music</h2>
+                <h2>Login to Last.fm</h2>
                 <p>Uses Last.fm API to track your music taste.</p>
-              </div>
-            </a>
-          </div>
-          <div class="container">
-            <a href="resume.pdf" target="_blank">
-              <img src="assets/imgs/oasis.jpg" alt="Work Experience #1">
-              <div class="overlay">
-                <h2>Oasis Ventures</h2>
-                <p>Saving over $25,000 in yearly licensing fees!</p>
               </div>
             </a>
           </div>
